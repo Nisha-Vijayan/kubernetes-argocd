@@ -1,5 +1,4 @@
-# httpproxy.yaml
-apiVersion: projectcontour.io/v1
+apiVersion: v1
 kind: HTTPProxy
 metadata:
   name: myapp
