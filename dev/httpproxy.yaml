@@ -2,10 +2,10 @@
 apiVersion: projectcontour.io/v1
 kind: HTTPProxy
 metadata:
-  name: basic
+  name: myapp
 spec:
   virtualhost:
-    fqdn: foo-basic.bar.com
+    fqdn: foo-myapp.bar.com
   routes:
     - conditions:
       - prefix: /
