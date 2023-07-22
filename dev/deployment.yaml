@@ -17,7 +17,7 @@ spec:
       - name: myapp
         image: keepitsimple704/argocd-test-image:v.0.1
         ports:
-        - containerPort: 8080
+          - containerPort: 8080
         resources:
             limits:
               cpu: 500m
